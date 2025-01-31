@@ -21,7 +21,7 @@ jobs:
  
   # Prevents this action from being disabled (due to repository inactivity)
   workflow-keepalive:
-    if: github.event_name == 'schedule'
+    #if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
     permissions:
       actions: write
